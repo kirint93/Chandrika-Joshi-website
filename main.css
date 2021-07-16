@@ -1,0 +1,56 @@
+nav {
+  width: 98%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: transparent;
+  background-color: transparent;
+}
+
+nav a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+body {
+  background-image: url(./images/om.jpg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  height: 300px;
+}
+
+body .title {
+  text-align: center;
+  text-overflow: o;
+  margin-top: 150px;
+  margin-left: 220px;
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 48px;
+  font-family: "Poppins";
+  letter-spacing: 8px;
+  line-height: 70px;
+  margin-bottom: 0%;
+}
+
+body footer {
+  width: 100%;
+  height: 60px;
+  background-color: red;
+  margin-top: 400px;
+  border: 0;
+}
+/*# sourceMappingURL=main.css.map */
